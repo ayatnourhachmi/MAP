@@ -1,0 +1,3 @@
+{
+  "_comment": "packages/config TypeScript config — extends tsconfig.base.json, strict mode, ESNext module output"
+}

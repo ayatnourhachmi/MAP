@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "morocco",
+    "name_en": "Morocco",
+    "name_fr": "Maroc",
+    "name_ar": "المغرب",
+    "name_es": "Marruecos",
+    "flag": "🇲🇦",
+    "currency": "MAD",
+    "currency_symbol": "د.م.",
+    "phone_code": "+212",
+    "languages": ["ar", "fr", "en"],
+    "timezone": "Africa/Casablanca",
+    "is_active": true,
+    "display_order": 1
+  },
+  {
+    "slug": "usa",
+    "name_en": "United States",
+    "name_fr": "États-Unis",
+    "name_ar": "الولايات المتحدة",
+    "name_es": "Estados Unidos",
+    "flag": "🇺🇸",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "phone_code": "+1",
+    "languages": ["en", "es"],
+    "timezone": "America/New_York",
+    "is_active": true,
+    "display_order": 2
+  },
+  {
+    "slug": "canada",
+    "name_en": "Canada",
+    "name_fr": "Canada",
+    "name_ar": "كندا",
+    "name_es": "Canadá",
+    "flag": "🇨🇦",
+    "currency": "CAD",
+    "currency_symbol": "C$",
+    "phone_code": "+1",
+    "languages": ["en", "fr"],
+    "timezone": "America/Toronto",
+    "is_active": true,
+    "display_order": 3
+  },
+  {
+    "slug": "mexico",
+    "name_en": "Mexico",
+    "name_fr": "Mexique",
+    "name_ar": "المكسيك",
+    "name_es": "México",
+    "flag": "🇲🇽",
+    "currency": "MXN",
+    "currency_symbol": "$",
+    "phone_code": "+52",
+    "languages": ["es", "en"],
+    "timezone": "America/Mexico_City",
+    "is_active": true,
+    "display_order": 4
+  }
+]

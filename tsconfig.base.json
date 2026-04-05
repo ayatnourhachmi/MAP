@@ -1,0 +1,3 @@
+{
+  "_comment": "Shared TypeScript base config — strict mode enabled, path aliases, ES2022 target; all workspace tsconfigs extend this file"
+}

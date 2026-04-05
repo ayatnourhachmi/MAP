@@ -1,0 +1,3 @@
+{
+  "_comment": "packages/shared workspace manifest — declares zod as the only dependency; exports types, schemas, and constants"
+}

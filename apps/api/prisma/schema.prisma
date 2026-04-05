@@ -1,0 +1,1 @@
+// Prisma schema — defines Tenant, PassConfig, Partner, PointOfInterest, PassProduct, and Session models with PostGIS and RLS notes

@@ -1,0 +1,12 @@
+[
+  { "slug": "mexico-city",        "name_en": "Mexico City",        "name_fr": "Mexico",              "name_ar": "مكسيكو سيتي",         "lat": 19.4326,  "lng": -99.1332 },
+  { "slug": "cancun",             "name_en": "Cancún",             "name_fr": "Cancún",              "name_ar": "كانكون",               "lat": 21.1619,  "lng": -86.8515 },
+  { "slug": "tulum",              "name_en": "Tulum",              "name_fr": "Tulum",               "name_ar": "تولوم",                "lat": 20.2114,  "lng": -87.4654 },
+  { "slug": "playa-del-carmen",   "name_en": "Playa del Carmen",   "name_fr": "Playa del Carmen",    "name_ar": "بلايا ديل كارمن",      "lat": 20.6296,  "lng": -87.0739 },
+  { "slug": "oaxaca",             "name_en": "Oaxaca",             "name_fr": "Oaxaca",              "name_ar": "أواكساكا",             "lat": 17.0732,  "lng": -96.7266 },
+  { "slug": "san-miguel-allende", "name_en": "San Miguel de Allende", "name_fr": "San Miguel de Allende", "name_ar": "سان ميغيل دي أيندي", "lat": 20.9148, "lng": -100.7446 },
+  { "slug": "puerto-vallarta",    "name_en": "Puerto Vallarta",    "name_fr": "Puerto Vallarta",     "name_ar": "بويرتو فالارتا",        "lat": 20.6534,  "lng": -105.2253 },
+  { "slug": "cabo-san-lucas",     "name_en": "Cabo San Lucas",     "name_fr": "Cabo San Lucas",      "name_ar": "كابو سان لوكاس",        "lat": 22.8905,  "lng": -109.9167 },
+  { "slug": "guadalajara",        "name_en": "Guadalajara",        "name_fr": "Guadalajara",         "name_ar": "غوادالاخارا",           "lat": 20.6597,  "lng": -103.3496 },
+  { "slug": "merida",             "name_en": "Mérida",             "name_fr": "Mérida",              "name_ar": "ميريدا",               "lat": 20.9674,  "lng": -89.5926 }
+]

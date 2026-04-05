@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "MAP",
+    "slug": "map-myatlaspass",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "map",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.myatlaspass.map"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.myatlaspass.map",
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "MAP needs your location to show nearby places."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "08a26d73-1784-4a51-8168-d5c670540f98"
+      }
+    },
+    "owner": "ayatnourhachmi"
+  }
+}

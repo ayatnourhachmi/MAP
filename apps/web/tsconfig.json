@@ -1,0 +1,3 @@
+{
+  "_comment": "apps/web TypeScript config — extends tsconfig.base.json, adds Next.js plugin paths and JSX preserve settings"
+}

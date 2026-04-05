@@ -1,0 +1,11 @@
+{
+  "_comment": "apps/mobile TypeScript config — extends tsconfig.base.json with Expo-specific settings and React Native module resolution",
+  "compilerOptions": {},
+  "extends": "expo/tsconfig.base",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "_comment": "apps/api workspace manifest — declares NestJS, Prisma, class-validator, and provider SDK dependencies with build/start/test scripts"
+}

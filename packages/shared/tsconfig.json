@@ -1,0 +1,3 @@
+{
+  "_comment": "packages/shared TypeScript config — extends tsconfig.base.json, targets ESNext for library build output"
+}

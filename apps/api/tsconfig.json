@@ -1,0 +1,3 @@
+{
+  "_comment": "apps/api TypeScript config — extends tsconfig.base.json with NestJS decorator metadata, emitDecoratorMetadata, and experimentalDecorators"
+}

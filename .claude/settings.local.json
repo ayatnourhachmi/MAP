@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm list:*)",
+      "Bash(npx expo:*)",
+      "Bash(node -e \"const r = require\\('C:/Github 2026/MAP-GITEX/map/node_modules/react-native-reanimated/package.json'\\); console.log\\(JSON.stringify\\(r.peerDependencies || r.dependencies, null, 2\\)\\)\")",
+      "Bash(node:*)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(json.dumps\\([{'slug':c['slug'],'name_en':c['name_en']} for c in data], indent=2\\)\\)\")"
+    ]
+  }
+}

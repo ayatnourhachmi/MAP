@@ -1,0 +1,1 @@
+# Root gitignore — excludes node_modules, .turbo cache, build outputs, .env files, and OS/editor artifacts
