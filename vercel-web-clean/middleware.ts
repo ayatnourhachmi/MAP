@@ -1,23 +1,31 @@
-import createMiddleware from "next-intl/middleware";
 import { NextRequest, NextResponse } from "next/server";
-import { routing } from "./intl/routing";
 
-let intlMiddleware: ReturnType<typeof createMiddleware> | null = null;
+const locales = ["en", "fr", "es", "ar", "ja", "zh", "ko", "ar-MA"] as const;
+const defaultLocale = "en";
 
-function getIntlMiddleware() {
-  if (!intlMiddleware) {
-    intlMiddleware = createMiddleware(routing);
+function detectLocale(request: NextRequest): string {
+  const acceptLang = request.headers.get("accept-language") ?? "";
+  for (const locale of locales) {
+    if (acceptLang.toLowerCase().includes(locale.toLowerCase())) {
+      return locale;
+    }
   }
-  return intlMiddleware;
+  return defaultLocale;
 }
 
 export default function middleware(request: NextRequest) {
-  try {
-    return getIntlMiddleware()(request);
-  } catch {
-    const fallbackUrl = new URL(`/${routing.defaultLocale}`, request.url);
-    return NextResponse.redirect(fallbackUrl);
-  }
+  const { pathname } = request.nextUrl;
+
+  const hasLocale = locales.some(
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
+  );
+
+  if (hasLocale) return NextResponse.next();
+
+  const locale = detectLocale(request);
+  const url = request.nextUrl.clone();
+  url.pathname = `/${locale}${pathname}`;
+  return NextResponse.redirect(url);
 }
 
 export const config = {
