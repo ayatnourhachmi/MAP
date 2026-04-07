@@ -1,0 +1,41 @@
+{
+  "comingSoon": {
+    "title": "即将上线",
+    "subtitle": "我们正在全球扩展",
+    "heroKicker": "AI 礼宾 Sarah",
+    "description": "全新高端旅行时代即将到来。在更多国家，体验本地化礼宾服务与精选通行卡。",
+    "mosaicTitle": "探索我们的全球通行",
+    "availableBadge": "已上线",
+    "languages": {
+      "en": "英语",
+      "fr": "法语",
+      "es": "西班牙语",
+      "ar": "阿拉伯语",
+      "ja": "日语",
+      "zh": "中文",
+      "ko": "韩语",
+      "darija": "摩洛哥达里贾语"
+    }
+  },
+  "cityPass": {
+    "familyText": "探索我们的全球通行卡",
+    "familySuffix": "已上线及即将上线国家",
+    "byLabel": "by My Atlas Pass"
+  },
+  "badge": {
+    "comingSoon": "即将上线"
+  },
+  "languageSwitcher": {
+    "button": "语言",
+    "title": "选择语言",
+    "close": "关闭"
+  },
+  "passDescriptions": {
+    "usa": "城市礼宾与高品质连接，覆盖每段行程。",
+    "canada": "奢华城市度假，顺畅规划并享受本地礼遇。",
+    "uae": "购物、美食与出行，一张通行卡全部解锁。",
+    "japan": "本地化 AI 指引与旅行功能即将开放。",
+    "france": "精选生活方式推荐与高端合作权益。",
+    "morocco": "真实在地体验、礼宾支持与高端优惠。"
+  }
+}

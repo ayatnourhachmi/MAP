@@ -1,0 +1,41 @@
+{
+  "comingSoon": {
+    "title": "近日公開",
+    "subtitle": "世界中へ展開中",
+    "heroKicker": "AIコンシェルジュ Sarah",
+    "description": "プレミアム旅行の新時代が始まります。現地に合わせたコンシェルジュ体験と厳選されたパスを、より多くの国でご提供します。",
+    "mosaicTitle": "グローバルパスを体験",
+    "availableBadge": "提供中",
+    "languages": {
+      "en": "英語",
+      "fr": "フランス語",
+      "es": "スペイン語",
+      "ar": "アラビア語",
+      "ja": "日本語",
+      "zh": "中国語",
+      "ko": "韓国語",
+      "darija": "モロッコ語（ダリジャ）"
+    }
+  },
+  "cityPass": {
+    "familyText": "グローバルパスを体験",
+    "familySuffix": "現在提供中 / 近日公開",
+    "byLabel": "by My Atlas Pass"
+  },
+  "badge": {
+    "comingSoon": "近日公開"
+  },
+  "languageSwitcher": {
+    "button": "言語",
+    "title": "言語を選択",
+    "close": "閉じる"
+  },
+  "passDescriptions": {
+    "usa": "都市型コンシェルジュとプレミアム接続をひとつに。",
+    "canada": "上質な都市滞在をスムーズに計画。",
+    "uae": "ショッピング、ダイニング、移動を1つのパスで。",
+    "japan": "日本向けAIガイドと旅行機能をまもなく提供。",
+    "france": "洗練されたライフスタイル提案と特典アクセス。",
+    "morocco": "本場のローカル体験とプレミアム特典。"
+  }
+}

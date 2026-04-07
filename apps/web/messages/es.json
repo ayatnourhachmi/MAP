@@ -1,0 +1,41 @@
+{
+  "comingSoon": {
+    "title": "Muy pronto",
+    "subtitle": "Nos estamos expandiendo a nivel mundial",
+    "heroKicker": "Concierge IA Sarah",
+    "description": "Llega una nueva era de viajes premium. Descubre experiencias de concierge localizadas y pases curados en más países.",
+    "mosaicTitle": "Explora nuestros pases globales",
+    "availableBadge": "Disponible",
+    "languages": {
+      "en": "Inglés",
+      "fr": "Francés",
+      "es": "Español",
+      "ar": "Árabe",
+      "ja": "Japonés",
+      "zh": "Chino",
+      "ko": "Coreano",
+      "darija": "Darija marroquí"
+    }
+  },
+  "cityPass": {
+    "familyText": "Explora nuestros pases globales",
+    "familySuffix": "Disponible ahora y próximos lanzamientos",
+    "byLabel": "por My Atlas Pass"
+  },
+  "badge": {
+    "comingSoon": "Próximamente"
+  },
+  "languageSwitcher": {
+    "button": "Idioma",
+    "title": "Seleccionar idioma",
+    "close": "Cerrar"
+  },
+  "passDescriptions": {
+    "usa": "Concierge urbano y conectividad premium para cada itinerario.",
+    "canada": "Escapadas de lujo con planificación fluida y ventajas locales.",
+    "uae": "Compras, gastronomía y movilidad premium en un solo pase.",
+    "japan": "Guía IA localizada y esenciales de viaje muy pronto.",
+    "france": "Recomendaciones de estilo de vida con acceso premium a partners.",
+    "morocco": "Momentos auténticos, soporte concierge y ofertas premium."
+  }
+}

@@ -1,1 +1,5 @@
-// Landing / home page for a given locale — renders hero, product overview, and CTA linking to /concierge
+import ComingSoon from "../../pages/ComingSoon";
+
+export default function LocaleHomePage() {
+	return <ComingSoon />;
+}

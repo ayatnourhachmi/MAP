@@ -1,1 +1,8 @@
-// Next.js middleware — detects locale from Accept-Language / cookie, resolves tenant from subdomain, and rewrites routes
+import createMiddleware from "next-intl/middleware";
+import { routing } from "./intl/routing";
+
+export default createMiddleware(routing);
+
+export const config = {
+  matcher: ["/((?!api|trpc|_next|_vercel|.*\\..*).*)"],
+};
