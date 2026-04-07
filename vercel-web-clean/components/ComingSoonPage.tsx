@@ -7,7 +7,7 @@ import { useLocale, useTranslations } from "next-intl";
 import CityPassFamily from "./CityPassFamily";
 import LanguageSwitcher from "./LanguageSwitcher";
 import SarahVideo from "./SarahVideo";
-import { usePathname, useRouter } from "../intl/navigation";
+import { useRouter } from "next/navigation";
 import type { AppLocale } from "../intl/routing";
 
 const videos: Record<string, string> = {
@@ -44,7 +44,6 @@ const mosaicCountries = [
 export default function ComingSoonPage() {
   const t = useTranslations();
   const locale = useLocale();
-  const pathname = usePathname();
   const router = useRouter();
   const [hasPlayedRefreshVideo, setHasPlayedRefreshVideo] = useState(false);
 
@@ -90,7 +89,7 @@ export default function ComingSoonPage() {
 
   const onLanguageChange = (nextLanguage: string) => {
     if (!supportedLocales.includes(nextLanguage as AppLocale)) return;
-    router.replace(pathname, { locale: nextLanguage as AppLocale });
+    router.push(`/${nextLanguage}`);
   };
 
   return (

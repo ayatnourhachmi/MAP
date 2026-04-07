@@ -18,7 +18,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 	const isRtl = params.locale === "ar" || params.locale === "ar-MA";
 
 	return (
-		<NextIntlClientProvider messages={messages}>
+		<NextIntlClientProvider locale={params.locale} messages={messages}>
 			<section lang={params.locale} dir={isRtl ? "rtl" : "ltr"}>
 				{children}
 			</section>
