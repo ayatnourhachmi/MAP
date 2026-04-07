@@ -18,10 +18,10 @@ const videos: Record<string, string> = {
   ja: "/videos/sarah-ja.mp4",
   zh: "/videos/sarah-zh.mp4",
   ko: "/videos/sarah-ko.mp4",
-  darija: "/videos/sarah-darija.mp4",
+  "ar-MA": "/videos/sarah-darija.mp4",
 };
 
-const supportedLocales: AppLocale[] = ["en", "fr", "es", "ar", "ja", "zh", "ko", "darija"];
+const supportedLocales: AppLocale[] = ["en", "fr", "es", "ar", "ja", "zh", "ko", "ar-MA"];
 const REFRESH_VIDEO = "/videos/ComingSoonMAP-Refresh.mp4";
 
 const mosaicCountries = [
@@ -59,7 +59,7 @@ export default function ComingSoonPage() {
       { code: "ja", label: t("comingSoon.languages.ja") },
       { code: "zh", label: t("comingSoon.languages.zh") },
       { code: "ko", label: t("comingSoon.languages.ko") },
-      { code: "darija", label: t("comingSoon.languages.darija") },
+      { code: "ar-MA", label: t("comingSoon.languages.darija") },
     ],
     [t],
   );
@@ -86,7 +86,7 @@ export default function ComingSoonPage() {
 
   const currentVideo = videos[language] ?? videos.en;
   const activeVideo = hasPlayedRefreshVideo ? currentVideo : REFRESH_VIDEO;
-  const isRtl = language === "ar" || language === "darija";
+  const isRtl = language === "ar" || language === "ar-MA";
 
   const onLanguageChange = (nextLanguage: string) => {
     if (!supportedLocales.includes(nextLanguage as AppLocale)) return;

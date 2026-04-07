@@ -15,7 +15,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 	}
 
 	const messages = await getMessages();
-	const isRtl = params.locale === "ar" || params.locale === "darija";
+	const isRtl = params.locale === "ar" || params.locale === "ar-MA";
 
 	return (
 		<NextIntlClientProvider messages={messages}>

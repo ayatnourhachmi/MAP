@@ -19,7 +19,7 @@ const messagesByLocale = {
   ja,
   zh,
   ko,
-  darija,
+  "ar-MA": darija,
 } as Record<string, AbstractIntlMessages>;
 
 export default getRequestConfig(async ({ requestLocale }) => {
