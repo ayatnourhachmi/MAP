@@ -1,0 +1,41 @@
+{
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "We are expanding worldwide",
+    "heroKicker": "Sarah AI Concierge",
+    "description": "A new era of premium travel is on the way. Discover localized concierge experiences and curated passes in more countries.",
+    "mosaicTitle": "Explore our global passes",
+    "availableBadge": "Live",
+    "languages": {
+      "en": "English",
+      "fr": "French",
+      "es": "Spanish",
+      "ar": "Arabic",
+      "ja": "Japanese",
+      "zh": "Chinese",
+      "ko": "Korean",
+      "darija": "Moroccan Darija"
+    }
+  },
+  "cityPass": {
+    "familyText": "Explore our global passes",
+    "familySuffix": "Available now and upcoming launches",
+    "byLabel": "by My Atlas Pass"
+  },
+  "badge": {
+    "comingSoon": "Coming Soon"
+  },
+  "languageSwitcher": {
+    "button": "Language",
+    "title": "Select Language",
+    "close": "Close"
+  },
+  "passDescriptions": {
+    "usa": "City-ready concierge and premium connectivity for every itinerary.",
+    "canada": "Luxury city escapes with seamless planning and local perks.",
+    "uae": "Premium shopping, dining, and mobility experiences in one pass.",
+    "japan": "Localized AI guidance and travel essentials launching shortly.",
+    "france": "Curated lifestyle recommendations with high-end partner access.",
+    "morocco": "Authentic local moments, concierge support, and premium deals."
+  }
+}

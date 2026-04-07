@@ -1,0 +1,1 @@
+# Reserved for web-only Next.js API routes (e.g. auth callbacks, webhooks) that should not live in the NestJS API

@@ -1,0 +1,41 @@
+{
+  "comingSoon": {
+    "title": "곧 공개됩니다",
+    "subtitle": "전 세계로 확장 중입니다",
+    "heroKicker": "AI 컨시어지 Sarah",
+    "description": "프리미엄 여행의 새로운 시대가 시작됩니다. 더 많은 국가에서 현지화된 컨시어지 경험과 큐레이션된 패스를 만나보세요.",
+    "mosaicTitle": "글로벌 패스를 만나보세요",
+    "availableBadge": "오픈",
+    "languages": {
+      "en": "영어",
+      "fr": "프랑스어",
+      "es": "스페인어",
+      "ar": "아랍어",
+      "ja": "일본어",
+      "zh": "중국어",
+      "ko": "한국어",
+      "darija": "모로코 다리자"
+    }
+  },
+  "cityPass": {
+    "familyText": "글로벌 패스를 만나보세요",
+    "familySuffix": "현재 이용 가능 국가 및 출시 예정 국가",
+    "byLabel": "by My Atlas Pass"
+  },
+  "badge": {
+    "comingSoon": "출시 예정"
+  },
+  "languageSwitcher": {
+    "button": "언어",
+    "title": "언어 선택",
+    "close": "닫기"
+  },
+  "passDescriptions": {
+    "usa": "도시형 컨시어지와 프리미엄 연결을 한 번에.",
+    "canada": "럭셔리 도심 여행을 부드럽게 계획하세요.",
+    "uae": "쇼핑, 다이닝, 이동을 하나의 패스로.",
+    "japan": "현지화된 AI 가이드와 여행 기능이 곧 제공됩니다.",
+    "france": "세련된 라이프스타일 추천과 프리미엄 제휴 혜택.",
+    "morocco": "진짜 로컬 경험과 컨시어지 지원, 프리미엄 오퍼."
+  }
+}
