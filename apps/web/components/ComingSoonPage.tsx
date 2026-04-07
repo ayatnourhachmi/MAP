@@ -4,9 +4,9 @@ import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 
-import CityPassFamily from "../components/CityPassFamily";
-import LanguageSwitcher from "../components/LanguageSwitcher";
-import SarahVideo from "../components/SarahVideo";
+import CityPassFamily from "./CityPassFamily";
+import LanguageSwitcher from "./LanguageSwitcher";
+import SarahVideo from "./SarahVideo";
 import { usePathname, useRouter } from "../intl/navigation";
 import type { AppLocale } from "../intl/routing";
 
@@ -41,7 +41,7 @@ const mosaicCountries = [
   { country: "India", status: "comingSoon" as const, image: "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&w=1200&q=80" },
 ];
 
-export default function ComingSoon() {
+export default function ComingSoonPage() {
   const t = useTranslations();
   const locale = useLocale();
   const pathname = usePathname();
@@ -121,7 +121,7 @@ export default function ComingSoon() {
               </h1>
               <p className="mt-3 text-xl text-[#555555]">{t("comingSoon.subtitle")}</p>
               <p className="mt-6 max-w-xl text-base leading-relaxed text-[#666666]">{t("comingSoon.description")}</p>
-              
+
               <div className="mt-8">
                 <LanguageSwitcher value={language} options={languageOptions} onChange={onLanguageChange} />
               </div>
@@ -138,25 +138,7 @@ export default function ComingSoon() {
         </div>
       </section>
 
-{/* Themed Pass Family Section 
-      <section className="mx-auto max-w-7xl px-6 py-8 md:px-12">
-        <CityPassFamily
-          familyText={t("cityPass.familyText")}
-          familySuffix={t("cityPass.familySuffix")}
-          byLabel={t("cityPass.byLabel")}
-          availableLabel={t("comingSoon.availableBadge")}
-          comingSoonLabel={t("badge.comingSoon")}
-          passes={passCards}
-        />
-      </section>*/}
-
       <section className="overflow-hidden py-10">
-        {/*<div className="mx-auto mb-7 flex max-w-7xl items-center justify-between px-6 md:px-12">
-          <h3 className="text-2xl md:text-3xl" style={{ fontFamily: '"Playfair Display", "Times New Roman", serif' }}>
-            {t("comingSoon.mosaicTitle")}
-          </h3>
-        </div>*/}
-
         <div className="relative">
           <motion.div
             className="flex w-max gap-4 px-6 md:px-12"

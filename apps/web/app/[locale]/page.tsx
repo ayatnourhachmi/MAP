@@ -1,5 +1,5 @@
-import ComingSoon from "../../pages/ComingSoon";
+import ComingSoonPage from "../../components/ComingSoonPage";
 
 export default function LocaleHomePage() {
-	return <ComingSoon />;
+	return <ComingSoonPage />;
 }
