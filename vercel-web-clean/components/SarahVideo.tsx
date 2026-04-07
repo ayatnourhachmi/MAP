@@ -100,6 +100,7 @@ export default function SarahVideo({ src, title, loop = true, onEnded, onError }
         loop={loop}
         muted={isMuted}
         playsInline
+        preload="auto"
         controls={false}
         onEnded={onEnded}
         onError={onError}

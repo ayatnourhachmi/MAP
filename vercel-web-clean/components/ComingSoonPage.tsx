@@ -157,7 +157,7 @@ export default function ComingSoonPage() {
                     src={item.image}
                     alt={`${item.country} travel destination`}
                     className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
-                    loading="lazy"
+                    loading={index < 4 ? "eager" : "lazy"}
                   />
                   <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.42))]" />
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
