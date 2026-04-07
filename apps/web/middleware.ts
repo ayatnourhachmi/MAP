@@ -2,11 +2,18 @@ import createMiddleware from "next-intl/middleware";
 import { NextRequest, NextResponse } from "next/server";
 import { routing } from "./intl/routing";
 
-const intlMiddleware = createMiddleware(routing);
+let intlMiddleware: ReturnType<typeof createMiddleware> | null = null;
+
+function getIntlMiddleware() {
+  if (!intlMiddleware) {
+    intlMiddleware = createMiddleware(routing);
+  }
+  return intlMiddleware;
+}
 
 export default function middleware(request: NextRequest) {
   try {
-    return intlMiddleware(request);
+    return getIntlMiddleware()(request);
   } catch {
     const fallbackUrl = new URL(`/${routing.defaultLocale}`, request.url);
     return NextResponse.redirect(fallbackUrl);
